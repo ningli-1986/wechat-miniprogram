@@ -1,0 +1,73 @@
+@import "/plugins/wxParse/wxParse.wxss";
+
+.swiper {
+  width: 100%;
+  height: 220px;
+}
+
+.swiper .slide-image {
+  width: 100%;
+}
+
+.product-header, .introduce {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.product-header .desc {
+  font-size: 16px;
+  color: #999;
+}
+
+.product-header .price {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.product-header .price .price-sale {
+  color: #f00;
+  margin-right: 10px;
+}
+
+.product-header .price .price-label {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.product-header .desc, .product-header .price, .product-header .address-shipping {
+  padding-top: 5px;
+}
+
+.address-shipping {
+  flex-direction: row;
+}
+
+.address-shipping .label {
+  font-size: 14px;
+  color: #999;
+}
+
+.intro-detail {
+  margin-top: 10px;
+}
+
+.product-footer {
+  position: fixed;
+  bottom: 0;
+  flex-direction: row;
+  width: 100%;
+}
+
+.product-footer button {
+  flex: 0.5;
+  border-radius: 0;
+  color: #fff;
+}
+
+.product-footer .icon-fav {
+  background: rgb(255, 192, 20);
+}
+
+.product-footer .icon-buy {
+  background: #f00;
+}

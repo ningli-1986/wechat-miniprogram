@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "searchBar": "../../components/search-bar/search-bar",
+    "divider": "../../components/divider/divider",
+    "categories": "../../components/category-list/category-list",
+    "banner": "../../components/banner/banner",
+    "popular": "../../components/popular/popular",
+    "loadMore": "../../components/load-more/load-more"
+  },
+  "enablePullDownRefresh": true
+}

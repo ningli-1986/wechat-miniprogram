@@ -1,0 +1,8 @@
+<view class='search-container'>
+  <view class='search-box'>
+    <view class='search-bar'>
+      <icon type='search' size='18' class='search-icon' />
+      <input disabled class='search-input' bindtap="presentSearchPage" confirm-type="search" placeholder="请输入关键词" />
+    </view>
+  </view>
+</view>

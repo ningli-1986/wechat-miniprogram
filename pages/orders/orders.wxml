@@ -1,0 +1,103 @@
+<view class='item-container'>
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+
+  <view class='item item-actions'>
+    <button size="mini" data-productid="1" bindtap='navToProductPage'>详情</button>
+  </view>
+</view>
+
+<view class='item-container'>
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+</view>
+
+<view class='item-container'>
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+</view>
+
+<view class='item-container'>
+  <view class='item'>
+    <view class='item-orderid'>订单号：215464548886</view>
+    <view class='item-detail'>
+      <view class='item-cover'>
+        <image class='item-img' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </view>
+      <view class='item-desc'>
+        <text class='item-name'>产品名称</text>
+        <text class='item-param'>颜色：红</text>
+        <text class='item-param'>尺寸：24</text>
+      </view>
+      <view class='item-status'>已发货</view>
+    </view>
+  </view>
+</view>
+
+<loadMore hide="{{hideLoadMore}}" eof="{{eof}}" />

@@ -1,0 +1,50 @@
+/* components/popular/popular.wxss */
+
+.list {
+  flex-direction: column;
+}
+
+.item {
+  padding: 0 10px;
+  padding-top: 10px;
+  border-top: 10px solid #eee;
+  margin-bottom: 10px;
+}
+
+.item:first-child {
+  border-top: 0;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.img {
+  width: 100px;
+  height: 150px;
+}
+
+.popular-header {
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.hn {
+  /* flex: 3; */
+  flex-direction: row;
+}
+
+.name {
+  margin-left: 5px;
+}
+
+.time {
+  flex: 1;
+  text-align: right;
+}
+
+.popular-img {
+  margin: 10px 0;
+}

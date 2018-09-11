@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "divider": "../../components/divider/divider",
+    "listItem": "../../components/list-item/list-item"
+  },
+  "navigationBarTitleText": "我的"
+}

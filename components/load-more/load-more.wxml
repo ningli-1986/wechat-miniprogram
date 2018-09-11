@@ -1,0 +1,7 @@
+<text>status: {{hide}}, {{eof}}</text>
+<view class='load-more' hidden='{{hide||eof}}'>
+  <text class='loading-text'>正在加载更多...</text>
+</view>
+<view class='eof' hidden='{{!eof}}'>
+  <text class='eof-text'>你触到我底线了</text>
+</view>

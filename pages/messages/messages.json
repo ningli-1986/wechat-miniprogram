@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "divider": "../../components/divider/divider"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "消息"
+}

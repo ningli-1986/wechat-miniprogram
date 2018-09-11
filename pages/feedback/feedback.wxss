@@ -1,0 +1,102 @@
+page {
+  background: #eee;
+}
+
+.section {
+  padding: 10px;
+  background: #fff;
+}
+
+.fb_title {
+  font-weight: bold;
+}
+
+.fb_title .note {
+  margin-left: 5px;
+}
+
+.icon_not_null {
+  color: #f00;
+  margin-right: 6px;
+  line-height: 100%;
+}
+
+.fb_trouble_projects {
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.fb_trouble_projects .btn {
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 5px;
+  align-self: left;
+  margin-right: 10px;
+  /* width: 23%; */
+  display: inline-block;
+}
+
+.fb_trouble_projects .btn text {
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  width: 75%;
+}
+
+.fb_trouble_projects .btn.selected {
+  color: #f00;
+  border-color: #f00;
+  background-color: rgba(255, 0, 0, 0.089);
+}
+
+.problems {
+  margin-top: 10px;
+}
+
+.ss_btn_container {
+  align-self: flex-start;
+}
+
+.ss_btn {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color: #999;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.form_item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  flex-direction: row;
+}
+
+.form_item:first-child {
+  padding-top: 0;
+}
+
+.form_item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.form_ph {
+  /* font-size: 14px; */
+}
+
+.form_name {
+  flex: 0.35;
+}
+
+.form_input {
+  flex: 0.65;
+}
+
+.btn_submit {
+  width: 95%;
+  margin-top: 20px;
+}

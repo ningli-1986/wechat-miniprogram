@@ -1,0 +1,39 @@
+.item {
+  flex-direction: row;
+  padding: 10px 0;
+  border-bottom: 10px solid #eee;
+}
+
+.icon {
+  flex: 0.25;
+  /*水平对齐*/
+  align-items: center;
+  /*垂直对齐*//* align-self: center;*/
+  padding-top: 5px;
+}
+
+.icon-message {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: rgb(103, 225, 255);
+  border-radius: 5px;
+}
+
+.message-container {
+  flex: 1;
+}
+
+.msg-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.msg-message {
+  color: #999;
+}
+
+.how-long {
+  color: #999;
+  font-size: 11px;
+}

@@ -1,0 +1,31 @@
+.list-container {
+  flex-direction: row;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.list-icon-container {
+  flex: 0.08;
+  align-items: center;
+  align-self: center;
+}
+
+.list-icon {
+  width: 23px;
+  height: 23px;
+}
+
+.list-content {
+  flex: 0.82;
+}
+
+.icon-arrow {
+  flex: 0.05;
+  align-items: flex-end;
+  align-self: center;
+}
+
+.arrow {
+  width: 10px;
+  height: 18px;
+}

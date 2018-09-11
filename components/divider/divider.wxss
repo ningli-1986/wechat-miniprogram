@@ -1,0 +1,8 @@
+/* components/divider.wxss */
+
+.divider {
+  height: 10px;
+  width: 100%;
+  display: block;
+  background: #eee;
+}

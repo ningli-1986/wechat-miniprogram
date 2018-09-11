@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/webview/webview",
+    "pages/search/search",
+    "pages/messages/messages",
+    "pages/profile/index",
+    "pages/orders/orders",
+    "pages/product/product",
+    "pages/feedback/feedback"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/icon_home.png",
+        "selectedIconPath": "icons/icon_home_active.png"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "消息",
+        "iconPath": "icons/icon_message.png",
+        "selectedIconPath": "icons/icon_message_active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "动态",
+        "iconPath": "icons/icon_activity.png",
+        "selectedIconPath": "icons/icon_activity_active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "icons/icon_profile.png",
+        "selectedIconPath": "icons/icon_profile_active.png"
+      }
+    ],
+    "color": "#8B4513",
+    "selectedColor": "#FF6347"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "小程序示例",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#eee",
+    "backgroundTextStyle": "dark"
+  }
+}

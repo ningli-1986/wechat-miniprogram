@@ -1,0 +1,7 @@
+<view>
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true">
+    <swiper-item wx:for="{{carousel}}" wx:key="*this">
+      <image bindtap="presentAdvDetail" data-url="{{item.url}}" data-title="{{item.title}}" src="{{item.img}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>

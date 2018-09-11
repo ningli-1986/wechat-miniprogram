@@ -1,0 +1,11 @@
+<view class='list-container'>
+  <view class='list-icon-container' hidden='{{!icon||icon==""}}'>
+    <image src="{{icon}}" class='list-icon' />
+  </view>
+  <view class='list-content'>
+    <slot></slot>
+  </view>
+  <view class='icon-arrow'>
+    <image class="arrow" src="../../icons/icon_arrow_right.png" />
+  </view>
+</view>

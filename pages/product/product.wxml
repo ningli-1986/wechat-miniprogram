@@ -1,0 +1,36 @@
+<import src="../../plugins/wxParse/wxParse.wxml" />
+
+<view class='swiper-container'>
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true">
+    <swiper-item wx:for="{{imgs}}" wx:key="*this">
+      <image src="{{item.img}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class='product-header'>
+  <text class='name'>产品名称</text>
+  <text class='desc'>产品描述</text>
+  <view class='price'>
+    <text class='price-sale'>￥1.00</text>
+    <text class='price-label'>￥10.00</text>
+  </view>
+  <view class='address-shipping'>
+    <text class='label'>送货至</text>
+    <picker></picker>
+  </view>
+</view>
+<divider/>
+
+<view class='introduce'>
+  <text class='subtitle'>图文详情</text>
+  <view class='intro-detail'>
+    <!-- {{productIntroduce}} -->
+    <template is="wxParse" data="{{wxParseData:productIntroduce.nodes}}" />
+  </view>
+</view>
+
+<view class='product-footer'>
+  <button class='icon-fav'>收藏</button>
+  <button class='icon-buy'>加入购物车</button>
+</view>

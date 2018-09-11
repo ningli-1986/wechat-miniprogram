@@ -1,0 +1,49 @@
+<view class='section'>
+  <text class='fb_title'><text class='icon_not_null'>*</text>问题描述</text>
+  <view class='fb_trouble_projects'>
+    <view class='btn {{selectedProject==1?"selected":""}}'>
+      <text data-projectid='1' bindtap='handleProject'>111111</text>
+    </view>
+    <view class='btn {{selectedProject==2?"selected":""}}'>
+      <text data-projectid='2' bindtap='handleProject'>2222</text>
+    </view>
+    <view class='btn {{selectedProject==3?"selected":""}}'>
+      <text data-projectid='3' bindtap='handleProject'>333333</text>
+    </view>
+    <view class='btn {{selectedProject==4?"selected":""}}'>
+      <text data-projectid='4' bindtap='handleProject'>44444444</text>
+    </view>
+  </view>
+  <view class='fb_trouble_projects'>
+    <view class='btn {{selectedProject==5?"selected":""}}'>
+      <text data-projectid='5' bindtap='handleProject'>555555</text>
+    </view>
+    <view class='btn {{selectedProject==6?"selected":""}}'>
+      <text data-projectid='6' bindtap='handleProject'>6666666</text>
+    </view>
+  </view>
+  <textarea class='problems' placeholder='请输入问题描述'></textarea>
+</view>
+<divider/>
+
+<view class='section screenshot'>
+  <text class='fb_title'>截图<text class='note'>(最多上传 3 张)</text></text>
+  <view class='ss_btn_container'>
+    <button class='ss_btn'>+</button>
+  </view>
+</view>
+<divider/>
+
+<view class='section'>
+  <view class='form_item'>
+    <text class='form_name'><text class='icon_not_null'>*</text>姓名</text>
+    <input class='form_input' placeholder-class='form_ph' placeholder='请输入您的姓名'></input>
+  </view>
+  <view class='form_item'>
+    <text class='form_name'><text class='icon_not_null'>*</text>手机号码</text>
+    <input class='form_input' placeholder-class='form_ph' placeholder='请输入您的手机号码'></input>
+  </view>
+</view>
+
+<divider/>
+<button bindtap='doSubmit' class='btn_submit' type='primary'>提交</button>

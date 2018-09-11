@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="btn-nav">
+    <view class='img'>
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    </view>
+    <text>1111</text>
+  </view>
+  <view class="btn-nav">
+    <view class='img'>
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    </view>
+    <text>1111</text>
+  </view>
+  <view class="btn-nav">
+    <view class='img'>
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    </view>
+    <text>1111</text>
+  </view>
+  <view class="btn-nav">
+    <view class='img'>
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    </view>
+    <text>1111</text>
+  </view>
+</view>

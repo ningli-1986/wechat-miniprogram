@@ -1,0 +1,10 @@
+<view class='item'>
+  <view class='icon'>
+    <image class='icon-message' src="../../icons/message.png" />
+  </view>
+  <view class='message-container'>
+    <text class='msg-title'>标题</text>
+    <text class='msg-message'>消息内容</text>
+    <text class='how-long'>18 分钟前</text>
+  </view>
+</view>

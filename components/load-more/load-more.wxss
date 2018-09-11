@@ -1,0 +1,9 @@
+.load-more, .eof {
+  align-items: center;
+  padding: 10px 0;
+}
+
+.loading-text, .eof-text {
+  color: #888;
+  font-size: 11pt;
+}

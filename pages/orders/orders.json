@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "订单",
+  "usingComponents": {
+    "loadMore": "../../components/load-more/load-more"
+  }
+}

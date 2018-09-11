@@ -1,0 +1,23 @@
+<view class='header'>
+  <view class='avatar'>
+    <image class='avt-img' src="../../images/avatar_girl.png" />
+  </view>
+  <view class='name'>
+    <text>toven</text>
+  </view>
+</view>
+<divider/>
+<view class='menu'>
+  <listItem bindtap="navToOrderPage" icon="../../icons/icon_orders.png">
+    <text>我的订单</text>
+  </listItem>
+  <listItem bindtap="navToSettingPage" icon="../../icons/icon_wishlist.png">
+    <text>我的收藏</text>
+  </listItem>
+  <listItem bindtap="navToFeedbackPage" icon="../../icons/icon_feedback.png">
+    <text>意见反馈</text>
+  </listItem>
+  <listItem icon="../../icons/icon_setting.png">
+    <text>设置</text>
+  </listItem>
+</view>

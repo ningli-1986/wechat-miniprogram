@@ -1,0 +1,25 @@
+.header, .menu {
+  padding: 0 10px;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  flex-direction: row;
+}
+
+.avatar {
+  flex: 0.2;
+  /*水平对齐*//* align-items: center; *//*垂直对齐*/
+  align-self: center;
+}
+
+.name {
+  flex: 0.8;
+  align-self: center;
+}
+
+.avt-img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,21 @@
+.container {
+  padding: 10px 5px;
+  flex-direction: row;
+}
+
+.btn-nav {
+  flex: 0.25;
+  display: block;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  display: block;
+}
+
+.img image {
+  width: 50px;
+  height: 50px;
+  border-radius: 200%;
+}

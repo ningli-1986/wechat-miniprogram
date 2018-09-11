@@ -1,0 +1,14 @@
+<searchBar/>
+<banner/>
+<divider/>
+<categories/>
+<divider/>
+
+<view>
+  <view class='title'>
+    <text>标题</text>
+    <!-- <text class="act-more" bindtap='presentProductCatalog'>>></text> -->
+  </view>
+  <popular/>
+  <loadMore hide="{{hideLoadMore}}" eof="{{eofPopular}}" />
+</view>
